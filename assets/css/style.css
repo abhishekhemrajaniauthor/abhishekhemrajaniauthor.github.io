@@ -41,9 +41,10 @@ Tags: HTML, Template, Coming Soon, Kite
 
 /* 1 - Import Google Font
 ---------------------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400);
+/*@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400);*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
-/* 1 - Import Google Font End 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+/* 1 - Import Google Font End
 ---------------------------------------------------------------------- */
 
 
@@ -52,7 +53,8 @@ Tags: HTML, Template, Coming Soon, Kite
 /* 2 - Global Style
 ---------------------------------------------------------------------- */
 body{
-	font-family:'Roboto', sans-serif;
+	font-family:'Open Sans', sans-serif;
+    font-size:15px;
 	color:#fff;
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
@@ -110,7 +112,7 @@ a:focus{
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
-	font-size:90px;
+	font-size:70px;
 }
 .section-description{
 	font-weight:1000;
@@ -464,8 +466,8 @@ a:focus{
 ---------------------------------------------------------------------- */
 .site-title{
 	text-align:center;
-	font-size:66px;
-	font-family:'Libre Baskerville', serif;
+	font-size:70px;
+	font-family:'Condiment', cursive;
 	margin:0 0 50px 0;
 	padding-bottom:50px;
 	position:relative;
