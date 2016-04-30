@@ -3,7 +3,7 @@ if($_REQUEST['first_name'] == '' || $_REQUEST['contact_email'] == '' ||  $_REQUE
   return "error";
 endif;
 if (filter_var($_REQUEST['contact_email'], FILTER_VALIDATE_EMAIL)):
-  $subject = 'Email from Abhishek A. Hemrajani'; // Subject of your email
+  $subject = 'Email from www.abhishekhemrajani.com'; // Subject of your email
 
   // Receiver email address
   $to = 'abhishekhemrajani@gmail.com';  //Change the email address by yours

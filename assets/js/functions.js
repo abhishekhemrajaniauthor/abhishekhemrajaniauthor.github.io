@@ -56,25 +56,25 @@ jQuery(document).ready(function($) {
 	-------------------------------------------------------------------*/
 	$('#time_countdown').countDown({
         
-        // targetDate: {
-        //     'day': 30,
-        //     'month': 9,
-        //     'year': 2015,
-        //     'hour': 0,
-        //     'min': 0,
-        //     'sec': 0
-        // },
-        // omitWeeks: true
+         targetDate: {
+             'day': 30,
+             'month': 9,
+             'year': 2015,
+             'hour': 0,
+             'min': 0,
+             'sec': 0
+         },
+         omitWeeks: true
 
-         targetOffset: {
-            'day':      30,
-            'month':    0,
-            'year':     0,
-            'hour':     0,
-            'min':      0,
-            'sec':      0
-		},
-		omitWeeks: true
+        // targetOffset: {
+          //  'day':      30,
+           // 'month':    0,
+            //'year':     0,
+            //'hour':     0,
+            //'min':      0,
+            //'sec':      0
+		//},
+		//omitWeeks: true
 
 	    });
 
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
   -------------------------------------------------------------------*/
     $(".news-letter").ajaxChimp({
         callback: mailchimpResponse,
-        url: "http://jeweltheme.us10.list-manage.com/subscribe/post?u=a3e1b6603a9caac983abe3892&amp;id=257cf1a459" // Replace your mailchimp post url inside double quote "".  
+        url: "http://www.abhishekhemrajani.us13.list-manage.com/subscribe/post?u=d726ba833b14bc9c690940d88&amp;id=a8ff2a8708" // Replace your mailchimp post url inside double quote "".  
     });
 
     function mailchimpResponse(resp) {
