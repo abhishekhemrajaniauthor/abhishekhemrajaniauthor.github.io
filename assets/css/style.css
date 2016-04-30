@@ -466,7 +466,7 @@ a:focus{
 ---------------------------------------------------------------------- */
 .site-title{
 	text-align:center;
-	font-size:70px;
+	font-size:80px;
 	font-family:'Condiment', cursive;
 	margin:0 0 50px 0;
 	padding-bottom:35px;
@@ -494,7 +494,7 @@ a:focus{
 }
 .time-count-container{
 	min-height:300px;
-	margin-top:50px;
+	margin-top:10px;
 }
 .time-box{
 	width:150px;
