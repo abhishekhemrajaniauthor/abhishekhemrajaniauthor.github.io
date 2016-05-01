@@ -243,7 +243,7 @@ jQuery(document).ready(function($) {
 $(window).load(function () {    
     "use strict";
     $("#loader").fadeOut();
-    $("#preloader").delay(50).fadeOut("slow");
+    $("#preloader").delay(200).fadeOut("slow");
 });
  /* Preloder End
 -------------------------------------------------------------------*/
