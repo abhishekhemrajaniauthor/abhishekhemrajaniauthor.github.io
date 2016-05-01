@@ -105,16 +105,16 @@ jQuery(document).ready(function($) {
   -------------------------------------------------------------------*/
     $(".news-letter").ajaxChimp({
         callback: mailchimpResponse,
-        url: "https://www.abhishekhemrajani.us13.list-manage.com/subscribe/post?u=d726ba833b14bc9c690940d88&amp;id=a8ff2a8708" // Replace your mailchimp post url inside double quote "".
+        url: "https://www.abhishekhemrajani.us13.list-manage.com/subscribe/post?u=d726ba833b14bc9c690940d88&amp;id=a8ff2a8708" // Replace your mailchimp post url inside double quote "".  
     });
 
     function mailchimpResponse(resp) {
          if(resp.result === 'success') {
          
-            $('.alert-success').html(resp.msg).fadeIn().delay(1000).fadeOut();
+            $('.alert-success').html(resp.msg).fadeIn().delay(3000).fadeOut();
             
         } else if(resp.result === 'error') {
-            $('.alert-warning').html(resp.msg).fadeIn().delay(1000).fadeOut();
+            $('.alert-warning').html(resp.msg).fadeIn().delay(3000).fadeOut();
         }  
     };
 
