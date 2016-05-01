@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
   -------------------------------------------------------------------*/
     $(".news-letter").ajaxChimp({
         callback: mailchimpResponse,
-        url: "https://www.abhishekhemrajani.us13.list-manage.com/subscribe/post?u=d726ba833b14bc9c690940d88&amp;id=a8ff2a8708" // Replace your mailchimp post url inside double quote "".  
+        url: "http://www.abhishekhemrajani.us13.list-manage.com/subscribe/post?u=d726ba833b14bc9c690940d88&amp;id=a8ff2a8708" // Replace your mailchimp post url inside double quote "".  
     });
 
     function mailchimpResponse(resp) {
@@ -243,7 +243,7 @@ jQuery(document).ready(function($) {
 $(window).load(function () {    
     "use strict";
     $("#loader").fadeOut();
-    $("#preloader").delay(350).fadeOut("slow");
+    $("#preloader").delay(200).fadeOut("slow");
 });
  /* Preloder End
 -------------------------------------------------------------------*/
