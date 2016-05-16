@@ -74,7 +74,7 @@ a:focus{outline:none;outline-offset:inherit;}
 .navbar-default{width:180px;}
 .navbar-nav>li{float:none !important;}
 }
-.site-title{text-align:center;font-size:100px;font-family:'Haettenschweiler';margin:0 0 50px 0;padding-bottom:35px;position:relative;}
+.site-title{text-align:center;font-size:100px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;margin:0 0 50px 0;padding-bottom:35px;position:relative;}
 .site-title:before,
 .site-title:after{content:"";width:100px;height:10px;left:50%;margin-left:-50px;border-bottom:1px double #fff;position:absolute;}
 .site-title:before{bottom:0;}
