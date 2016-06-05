@@ -169,6 +169,23 @@ form.news-letter .btn:hover{color:#3498db;}
 }
 @media (min-width:1170px){.container{width:830px;}
 }
+.buybtn {
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 9px 9px 9px 9px;
+  border: solid #eabb4d 2px;
+  text-decoration: none;
+  position: relative;
+}
+
+.buybtn:hover {
+  color: #eabb4d;
+  text-decoration: underline;
+}
 #preloader{position:fixed;width:100%;background:rgba(255,255,255,.97);height:100%;z-index:99999999999;}
 #loader{position:absolute;top:0;left:0;right:0;bottom:0;width:175px;height:175px;margin:auto;}
 #loader .dot{position:absolute;top:0;left:0;right:0;bottom:0;width:87.5px;height:100%;margin:auto;}
