@@ -13,6 +13,20 @@
         ga('send', 'pageview');
 
     </script>
+    <script>
+/**
+* Function that tracks a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+    </script>
     <link rel="shortcut icon" href="assets/fonts/favicon.ico" type="image/x-icon">
     <link rel=icon href="assets/fonts/favicon.ico" type="image/x-icon">
     <meta charset=UTF-8>
@@ -79,9 +93,9 @@
                    </h3>
                     <div class=col-sm-6>
                         <h3 class=section-description><p align="left">Print Edition India</p></h3>
-                        <a href="http://www.flipkart.com/black-white-grays-between-english/p/itmejgwfhstwhquy?pid=9789386073389&affid=editornoti" class="buybtn">Flipkart</a>
+                        <a href="http://www.flipkart.com/black-white-grays-between-english/p/itmejgwfhstwhquy?pid=9789386073389&affid=editornoti" class="buybtn" onclick="trackOutboundLink('http://www.flipkart.com/black-white-grays-between-english/p/itmejgwfhstwhquy?pid=9789386073389&affid=editornoti'); return false;">Flipkart</a>
                         <a href="http://www.amazon.in/Black-White-Between-Abhishek-Hemrajani/dp/9386073382/ref=sr_1_1?ie=UTF8&qid=1465032884&sr=8-1&keywords=9789386073389" class="buybtn">Amazon.in</a>
-
+                        
 
                     </div>
                    <div class=col-sm-6>
